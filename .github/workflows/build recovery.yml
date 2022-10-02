@@ -10,27 +10,27 @@ on:
       MANIFEST_BRANCH:
         description: 'branch'
         required: true
-        default: 'twrp-12.1'
+        default: 'twrp-11'
       DEVICE_TREE:
         description: 'device tree'
         required: true
-        default: 'https://github.com/xiaoleGun/android_device_xiaomi_wayne-twrp'
+        default: 'https://github.com/lzmvds/odinlite_6877_fhd_v1'
       DEVICE_TREE_BRANCH:
         description: 'branch'
         required: true
-        default: 'android-12.1'
+        default: 'main'
       DEVICE_PATH:
         description: 'device path'
         required: true
-        default: 'device/xiaomi/wayne'
+        default: 'device/alps/odinlite_6877_fhd_v1'
       DEVICE_NAME:
         description: 'device codename'
         required: true
-        default: 'wayne'
+        default: 'odinlite'
       MAKEFILE_NAME:
         description: 'makefile name'
         required: true
-        default: 'twrp_wayne'
+        default: 'twrp_odinlite'
         
 jobs:
   Build:
